@@ -86,7 +86,7 @@ div[aria-label="Вхідні"],
 .slider__41d94 > svg, .option__91497:after, .actionButtons__85e3c, 
 .inviteToolbar__7cc96 > .divider_bdb894, 
 .children_cde9af > .akaBadge__27cd4,
-.children_cde9af > .nicknames__12efb, .scroller_de945b > .listItem__48528 > .listItemWrapper__3d465 {
+.children_cde9af > .nicknames__12efb, .scroller_de945b > .listItem__48528 > .listItemWrapper__3d465, button[aria-label="Камера недоступна"] {
     display: none;
 }
 /**/
@@ -253,7 +253,6 @@ button[aria-label="Вимкнути звук"] {
 /* Tooltip */
 .tooltipPrimary__51b23,
 .tooltipGrey__3108e,
-.menu__088f7,
 .popout__24e32,
 .container__84c26,
 .focused__68b93,
@@ -319,28 +318,28 @@ button[aria-label="Вимкнути звук"] {
 /**/
 
 /* Microphone style fix */
-svg div button[aria-label="Вкл. микрофон"],
+svg div button[aria-label="Включить микрофон"],
 svg div button[aria-label="Увімкнути мікрофон"],
 svg div button[aria-label="Turn On Microphone"] {
     background: var(--white-500) !important;
 }
-svg div button[aria-label="Вкл. микрофон"] svg,
+svg div button[aria-label="Включить микрофон"] svg,
 svg div button[aria-label="Увімкнути мікрофон"] svg,
 svg div button[aria-label="Turn On Microphone"] svg {
     color: var(--primary-860) !important;
 }
 
-svg div > button[aria-label="Заглушить"],
+svg div > button[aria-label="Отключить микрофон"],
 svg div > button[aria-label="Вимкнути мікрофон"],
 svg div > button[aria-label="Turn Off Microphone"] {
     background: var(--primary-630) !important;
 }
-svg div > button[aria-label="Заглушить"]:hover,
+svg div > button[aria-label="Отключить микрофон"]:hover,
 svg div > button[aria-label="Вимкнути мікрофон"]:hover,
 svg div > button[aria-label="Turn Off Microphone"]:hover {
     background: var(--primary-700) !important;
 }
-svg div button[aria-label="Заглушить"] svg,
+svg div button[aria-label="Отключить микрофон"] svg,
 svg div button[aria-label="Вимкнути мікрофон"] svg,
 svg div button[aria-label="Turn Off Microphone"] svg {
     color: var(--white-500) !important;
